@@ -74,6 +74,7 @@ try:
     botao_modificado = driver.find_element(
     By.XPATH,
     "//span[normalize-space()='Modified']/ancestor::button")
+    "//span[contains(normalize-space(),'Modified') or contains(normalize-space(),'Modificado')]/ancestor::button"
 
     # 🔘 Clica no botão
     botao_modificado.click()
@@ -85,7 +86,7 @@ try:
  # 2️⃣ Aguarda o menu abrir e clicar em "Últimos 7 dias"
     btn_7_dias = driver.find_element(
     By.XPATH,
-    "//span[contains(normalize-space(),'7 day')]/ancestor::button")
+    "//span[contains(normalize-space(),'7 day') or contains(normalize-space(),'7 dias')]/ancestor::button"
 
     btn_7_dias.click()
 
