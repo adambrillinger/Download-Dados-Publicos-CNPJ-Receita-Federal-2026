@@ -1,5 +1,5 @@
 # Download-Dados-Publicos-CNPJ-Receita-Federal-2026
-Pessoal, Receita mudou o layout do site, segue código Python pra download dos arquivos.
+Pessoal, a Receita mudou o layout do site no final de semana do dia 31/01 e 01/02/2026, segue código Python pra download dos arquivos.
 
 Hoje esse arquivo faz o download na pasta de downloads padrão do Chrome, e depois envia para uma pasta específica para armazenamento.
 Essa transação é importante para que não seja feito o download várias vezes desnecessariamente.
